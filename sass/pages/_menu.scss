@@ -34,7 +34,7 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     position: relative;
-   /* z-index: 1;*/
+    z-index: 1;
 
     .far {
         align-self: flex-end;
@@ -90,10 +90,10 @@
     background-color: #FFF;
     max-width: 350px;
     height: 70px;
-    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
+    box-shadow: 4px 4px 16px rgb(0 0 0 / 10%);
     padding: 0 0 0 16px;
-    border-radius: .75rem;
-    margin: 1rem 0;
+    border-radius:12px ;
+    margin: 16px 0;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -106,7 +106,7 @@
     &__assiette {
         width: 350px;
         padding: 14px 0;
-        border-radius: .75rem;
+        border-radius: 12px;
         display: flex;
         justify-content: space-between;
 
@@ -171,7 +171,7 @@
 
 .card__globale__contenu__assiette__confirmation {
     background-color: #99E2D0;
-    min-width: 4rem;
+    min-width: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,8 +179,8 @@
 }
 
 .circle {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 25px;
+    height: 25px;
     border-radius: 100px;
     background: #FFF;
     color: $color-tertiaire;
@@ -251,7 +251,7 @@
 
         &:hover {
             opacity: 0.8;
-            box-shadow: 1rem 1rem 20px rgb(0 0 0 / 25%);
+            box-shadow: 16px 16px 20px rgb(0 0 0 / 25%);
         }
     }
 }
