@@ -11,7 +11,7 @@
 /*---Carte restaurant----*/
 
 .card__titles {
-    font-family: 'roboto', cursive;
+    font-family: 'Shrikhand', cursive;
     max-width: 322px;
 }
 
@@ -57,6 +57,16 @@
     }
 }
 
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .card__globale__entres {
     animation: fadein 2s;
 
@@ -98,6 +108,10 @@
     justify-content: space-between;
     overflow: hidden;
 
+    // @media screen and (min-width: 375px) and (max-width: 400px) {
+    //     min-width: 250px;
+    //     max-width: 315px;
+    // }
 
     @media screen and (min-width: 400px) and (max-width: 1020px) {
         max-width: none;
@@ -160,9 +174,16 @@
             }
 
         }
-
+        
+        .circle {
+            transform: rotate(360deg);
+        }
        
     }
+    // @media screen and (min-width: 375px) {
+    //     min-width: 250px;
+    //     width: 100%;
+    // }
 
     
 }
@@ -225,7 +246,7 @@
         font-weight: normal;
         text-overflow: ellipsis;
         white-space: nowrap;
-    }
+    } 
 }
 
 /*Bouton Commander*/
