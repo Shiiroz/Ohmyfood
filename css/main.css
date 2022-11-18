@@ -480,9 +480,9 @@ footer .footer__logo {
     overflow: hidden;
   }
 }
-.card__globale__contenu:hover .card__global__contenu__assiette__confirmation {
+.card__globale__contenu:hover .card__globale__contenu__assiette__confirmation {
   margin-right: 0px;
-  min-width: 4rem;
+  min-width: 64px;
   transition: margin-right 0.5s;
 }
 .card__globale__contenu:hover .header_menu {
