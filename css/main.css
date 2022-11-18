@@ -358,7 +358,7 @@ footer .footer__logo {
 
 /*---Carte restaurant----*/
 .card__titles {
-  font-family: "roboto", cursive;
+  font-family: "Shrikhand", cursive;
   max-width: 322px;
 }
 
@@ -381,7 +381,7 @@ footer .footer__logo {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   position: relative;
-  /* z-index: 1;*/
+  z-index: 1;
 }
 .card .far {
   align-self: flex-end;
@@ -401,6 +401,14 @@ footer .footer__logo {
   background: #99E2D0;
 }
 
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .card__globale__entres {
   animation: fadein 2s;
 }
@@ -434,10 +442,10 @@ footer .footer__logo {
   background-color: #FFF;
   max-width: 350px;
   height: 70px;
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
   padding: 0 0 0 16px;
-  border-radius: 0.75rem;
-  margin: 1rem 0;
+  border-radius: 12px;
+  margin: 16px 0;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -450,7 +458,7 @@ footer .footer__logo {
 .card__globale__contenu__assiette {
   width: 350px;
   padding: 14px 0;
-  border-radius: 0.75rem;
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
 }
@@ -472,9 +480,9 @@ footer .footer__logo {
     overflow: hidden;
   }
 }
-.card__globale__contenu:hover .card__global__contenu__assiette__confirmation {
+.card__globale__contenu:hover .card__globale__contenu__assiette__confirmation {
   margin-right: 0px;
-  min-width: 4rem;
+  min-width: 64px;
   transition: margin-right 0.5s;
 }
 .card__globale__contenu:hover .header_menu {
@@ -496,10 +504,13 @@ footer .footer__logo {
     max-width: 130px;
   }
 }
+.card__globale__contenu:hover .circle {
+  transform: rotate(360deg);
+}
 
 .card__globale__contenu__assiette__confirmation {
   background-color: #99E2D0;
-  min-width: 4rem;
+  min-width: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -507,8 +518,8 @@ footer .footer__logo {
 }
 
 .circle {
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 25px;
+  height: 25px;
   border-radius: 100px;
   background: #FFF;
   color: #99E2D0;
@@ -575,7 +586,7 @@ footer .footer__logo {
 }
 .bouton__commander--rose:hover {
   opacity: 0.8;
-  box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.25);
 }
 
 /*# sourceMappingURL=main.css.map */
