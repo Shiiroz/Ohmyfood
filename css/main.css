@@ -412,7 +412,7 @@ footer .footer__logo {
 .card__globale__entres {
   animation: fadein 2s;
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1142px) {
   .card__globale__entres {
     margin-right: 10px;
   }
@@ -450,13 +450,13 @@ footer .footer__logo {
   justify-content: space-between;
   overflow: hidden;
 }
-@media screen and (min-width: 400px) and (max-width: 1020px) {
+@media screen and (min-width: 400px) and (max-width: 1024px) {
   .card__globale__contenu {
     max-width: none;
   }
 }
 .card__globale__contenu__assiette {
-  width: 350px;
+  width: 400px;
   padding: 14px 0;
   border-radius: 12px;
   display: flex;
@@ -468,7 +468,7 @@ footer .footer__logo {
 .card__globale__contenu__assiette h4 {
   font-size: 16px;
 }
-@media screen and (min-width: 320px) and (max-width: 420px) {
+@media screen and (min-width: 320px) and (max-width: 430px) {
   .card__globale__contenu__assiette h3 {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -483,7 +483,7 @@ footer .footer__logo {
 .card__globale__contenu:hover .card__globale__contenu__assiette__confirmation {
   margin-right: 0px;
   min-width: 64px;
-  transition: margin-right 0.5s;
+  transition: margin-right 0.6s;
 }
 .card__globale__contenu:hover .header_menu {
   white-space: nowrap;
@@ -543,7 +543,7 @@ footer .footer__logo {
   align-items: flex-end;
   align-self: flex-end;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 44px;
   width: 25%;
 }
 
@@ -564,7 +564,7 @@ footer .footer__logo {
   white-space: nowrap;
 }
 
-/*Bouton Commander*/
+/*------Bouton Commander------*/
 .bouton__commander {
   padding: 30px 0 80px 0;
   text-align: center;
