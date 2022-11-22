@@ -308,7 +308,7 @@ h1 {
   color: #FFF;
 }
 .restaurants__carte .restaurants__carte__content .coeur__2:hover {
-  animation: heart__full__opacity 1s forwards;
+  animation: heart__full__opacity 0s forwards;
 }
 .restaurants .btn-new {
   background-color: #99E2D0;
