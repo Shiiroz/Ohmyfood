@@ -140,12 +140,13 @@ h1 {
   flex-direction: column;
   text-align: center;
   background-color: #f6f6f6;
-  padding: 40px 40px;
+  padding: 49px 40px;
   margin-bottom: 50px;
 }
 .accueil__police {
   font-weight: bold;
   font-size: 25px;
+  padding: 10px;
 }
 .accueil__explore {
   padding: 12px 24px;
