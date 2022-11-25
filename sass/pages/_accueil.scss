@@ -3,7 +3,7 @@
     max-width: 2560px;
 
     @media screen and (min-width: 1800px) {
-        max-width: 1800px;
+        max-width: 5220px;
         margin: auto;
     }
 
@@ -98,7 +98,7 @@ h1 {
     &__police {
         font-weight: bold;
         font-size: 25px;
-        padding: 10px;
+        padding: 15px;
     }
 
     &__explore {
@@ -113,6 +113,7 @@ h1 {
         background-image: linear-gradient($color-secondaire, $color-primaire);
         transition: background-color 240ms;
         box-shadow: 4px 4px 10px rgb(0 0 0 / 25%);
+        margin-top: 19px;
 
         &:hover {
             opacity: 0.8;
