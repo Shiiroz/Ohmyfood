@@ -18,14 +18,14 @@ header {
 }
 .fa-arrow-left:before {
     position: absolute;
-    left: 2rem;
-    height: 2rem;
-    width: 2rem;
+    left: 32px;
+    height: 32px;
+    width: 32px;
     top: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
-    font-size: 1.2rem;
+    font-size: 19px;
     color: #000;
 }

@@ -17,15 +17,15 @@ header .logo img {
 
 .fa-arrow-left:before {
   position: absolute;
-  left: 2rem;
-  height: 2rem;
-  width: 2rem;
+  left: 32px;
+  height: 32px;
+  width: 32px;
   top: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  font-size: 1.2rem;
+  font-size: 19px;
   color: #000;
 }
 
@@ -170,6 +170,9 @@ h1 {
 /*-------fonctionnement-----*/
 .fonction__titre {
   margin: 0 0 20px 22px;
+  display: block;
+  text-align: center;
+  margin-right: 1285px;
 }
 
 .fonction {
@@ -182,7 +185,7 @@ h1 {
   padding: 0 15px;
 }
 .fonction h2 {
-  margin: 0 0 30px 0;
+  margin: -32px -164px 49px -1px;
 }
 .fonction__go {
   margin: 0 20px 20px 40px;
@@ -227,6 +230,9 @@ h1 {
 }
 .restaurants__titre {
   padding: 50px 0 10px 22px;
+  display: block;
+  text-align: center;
+  margin-right: 1285px;
 }
 .restaurants__carte {
   border-radius: 20px;
@@ -337,6 +343,8 @@ footer h3 {
   margin: 0 0 10px 20px;
   color: #e6e6e6;
   font-weight: normal;
+  display: block;
+  text-align: center;
 }
 footer a {
   text-decoration: none;
@@ -361,7 +369,7 @@ footer .footer__logo {
 /*---Carte restaurant----*/
 .card__titles {
   font-family: "Shrikhand", cursive;
-  max-width: 322px;
+  text-align: center;
 }
 
 .fa-heart:before {
@@ -391,7 +399,7 @@ footer .footer__logo {
   align-self: flex-end;
 }
 .card h2 {
-  margin-bottom: 35px;
+  margin-bottom: 39px;
 }
 
 .entres {
@@ -417,7 +425,7 @@ footer .footer__logo {
   }
 }
 .card__globale__entres {
-  animation: fadein 2s;
+  animation: fadein 2.5s;
 }
 @media screen and (min-width: 1142px) {
   .card__globale__entres {
@@ -426,7 +434,13 @@ footer .footer__logo {
 }
 
 .card__globale__plats {
-  animation: fadein 4s;
+  animation: fadein 2.5s;
+  /*display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: inherit;
+  margin-bottom : 40px;*/
 }
 @media screen and (min-width: 1142px) {
   .card__globale__plats {
@@ -435,7 +449,13 @@ footer .footer__logo {
 }
 
 .card__globale__desserts {
-  animation: fadein 5s;
+  animation: fadein 2.5s;
+  /*display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: inherit;
+  margin-bottom : 40px;*/
 }
 
 .card__globale__entres h2,
@@ -459,7 +479,8 @@ footer .footer__logo {
 }
 @media screen and (min-width: 400px) and (max-width: 1024px) {
   .card__globale__contenu {
-    max-width: none;
+    margin: auto;
+    margin-bottom: 10px;
   }
 }
 .card__globale__contenu__assiette {
@@ -475,7 +496,7 @@ footer .footer__logo {
 .card__globale__contenu__assiette h4 {
   font-size: 16px;
 }
-@media screen and (min-width: 320px) and (max-width: 430px) {
+@media screen and (min-width: 220px) and (max-width: 430px) {
   .card__globale__contenu__assiette h3 {
     text-overflow: ellipsis;
     white-space: nowrap;

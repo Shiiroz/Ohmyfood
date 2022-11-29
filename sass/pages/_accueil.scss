@@ -124,6 +124,9 @@ h1 {
 /*-------fonctionnement-----*/
 .fonction__titre {
     margin: 0 0 20px 22px;
+    display: block;
+    text-align: center;
+    margin-right: 1285px;
 }
 
 .fonction {
@@ -136,7 +139,7 @@ h1 {
     padding: 0 15px;
 
     h2 {
-        margin: 0 0 30px 0;
+        margin: -32px -164px 49px -1px;
     }
 
     &__go {
@@ -188,6 +191,9 @@ h1 {
 
     &__titre {
         padding: 50px 0 10px 22px;
+        display: block;
+        text-align: center;
+        margin-right: 1285px;
     }
 
     &__carte {
