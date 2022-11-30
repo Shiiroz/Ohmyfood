@@ -381,7 +381,6 @@ footer .footer__logo {
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
     padding-left: inherit;
   }
 }
@@ -413,19 +412,21 @@ footer .footer__logo {
   background: #99E2D0;
 }
 
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+/*@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}*/
 .card__globale__entres {
-  animation: fadein 2.5s;
+  animation: fadein 1s forwards ease-out;
 }
 @media screen and (min-width: 1142px) {
   .card__globale__entres {
@@ -434,13 +435,7 @@ footer .footer__logo {
 }
 
 .card__globale__plats {
-  animation: fadein 2.5s;
-  /*display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  padding-left: inherit;
-  margin-bottom : 40px;*/
+  animation: fadein 3s forwards ease-out;
 }
 @media screen and (min-width: 1142px) {
   .card__globale__plats {
@@ -449,13 +444,7 @@ footer .footer__logo {
 }
 
 .card__globale__desserts {
-  animation: fadein 2.5s;
-  /*display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  padding-left: inherit;
-  margin-bottom : 40px;*/
+  animation: fadein 4s forwards ease-out;
 }
 
 .card__globale__entres h2,
@@ -615,6 +604,38 @@ footer .footer__logo {
 .bouton__commander--rose:hover {
   opacity: 0.8;
   box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.25);
+}
+
+@font-face {
+  font-family: "shrikhand";
+  src: url("../webfonts/Shrikhand-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../webfonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../webfonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../webfonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 400;
+}
+@keyframes fadein {
+  0% {
+    transform: translateY(16px);
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
