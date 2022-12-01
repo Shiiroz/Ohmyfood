@@ -426,7 +426,7 @@ footer .footer__logo {
     }
 }*/
 .card__globale__entres {
-  animation: fadein 1s forwards ease-out;
+  animation: fadein 3s;
 }
 @media screen and (min-width: 1142px) {
   .card__globale__entres {
@@ -435,7 +435,7 @@ footer .footer__logo {
 }
 
 .card__globale__plats {
-  animation: fadein 3s forwards ease-out;
+  animation: fadein 5s;
 }
 @media screen and (min-width: 1142px) {
   .card__globale__plats {
@@ -444,7 +444,7 @@ footer .footer__logo {
 }
 
 .card__globale__desserts {
-  animation: fadein 4s forwards ease-out;
+  animation: fadein 8s;
 }
 
 .card__globale__entres h2,
@@ -626,14 +626,9 @@ footer .footer__logo {
 }
 @keyframes fadein {
   0% {
-    transform: translateY(16px);
-    opacity: 0.25;
-  }
-  50% {
-    opacity: 0.5;
+    opacity: 0;
   }
   100% {
-    transform: translateY(0);
     opacity: 1;
   }
 }

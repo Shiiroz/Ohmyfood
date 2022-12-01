@@ -75,8 +75,8 @@
 }*/
 
 .card__globale__entres {
-    //animation: fadein 5s;
-    animation: fadein 1s forwards ease-out;
+    animation: fadein 3s;
+    
 
     @media screen and (min-width: 1142px) {
         margin-right: 10px;
@@ -84,8 +84,8 @@
 }
 
 .card__globale__plats {
-    //animation: fadein 8s;
-    animation: fadein 3s forwards ease-out;
+    animation: fadein 5s;
+    
 
     @media screen and (min-width: 1142px) {
         margin-right: 10px;
@@ -93,8 +93,7 @@
 }
 
 .card__globale__desserts {
-    //animation: fadein 15s;
-    animation: fadein 4s forwards ease-out;
+    animation: fadein 8s;   
 }
 
 .card__globale__entres,
