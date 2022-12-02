@@ -32,6 +32,11 @@ header .logo img {
 * {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", sans-serif;
 }
 
 a {
@@ -41,15 +46,6 @@ a {
 
 .container-all {
   max-width: 2560px;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: "Roboto", sans-serif;
 }
 
 body {
