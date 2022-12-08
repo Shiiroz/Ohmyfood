@@ -145,7 +145,7 @@ h1 {
     &__go {
         margin: 0 20px 20px 40px;
         font-weight: bold;
-        background-color: #F6F6F6;
+        background-color: $color-f;
         padding: 30px 50px 30px 18px;
         margin-left: 20px;
         text-align: center;
@@ -180,7 +180,7 @@ h1 {
 /*------Restaurants------*/
 
 .restaurants {
-    background-color: #f6f6f6;
+    background-color: $color-f;
 
     &__bloc {
         display: flex;

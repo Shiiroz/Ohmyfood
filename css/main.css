@@ -216,7 +216,7 @@ h1 {
 
 /*------Restaurants------*/
 .restaurants {
-  background-color: #f6f6f6;
+  background-color: #F6F6F6;
 }
 .restaurants__bloc {
   display: flex;
@@ -336,11 +336,16 @@ footer {
   min-width: 320px;
 }
 footer h3 {
+  font-family: "Shrikhand";
   margin: 0 0 10px 20px;
   color: #e6e6e6;
   font-weight: normal;
   display: block;
-  text-align: center;
+}
+@media screen and (min-width: 525px) {
+  footer h3 {
+    text-align: center;
+  }
 }
 footer a {
   text-decoration: none;
@@ -350,8 +355,9 @@ footer a:hover {
   color: #FFF;
 }
 footer .footer__logo {
-  font-weight: normal;
-  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 25px;
   margin-bottom: 15px;
 }
 
@@ -364,8 +370,14 @@ footer .footer__logo {
 
 /*---Carte restaurant----*/
 .card__titles {
-  font-family: "Shrikhand", cursive;
+  font-family: "Shrikhand";
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .card__titles {
+    display: flex;
+    justify-content: space-between1;
+  }
 }
 
 .fa-heart:before {
@@ -395,6 +407,7 @@ footer .footer__logo {
 }
 .card h2 {
   margin-bottom: 39px;
+  font-weight: initial;
 }
 
 .entres {

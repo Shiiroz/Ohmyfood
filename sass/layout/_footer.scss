@@ -11,11 +11,15 @@ footer {
     min-width: 320px;
 
     h3 {
+        font-family: "Shrikhand" ;
         margin: 0 0 10px 20px;
         color: #e6e6e6;
         font-weight: normal;
         display: block;
-        text-align: center;
+        
+        @media screen and (min-width: 525px) {
+            text-align: center;
+        }
         
     }
 
@@ -29,8 +33,9 @@ footer {
     }
 
     .footer__logo {
-        font-weight: normal;
-        font-size: 20px;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 25px;
         margin-bottom: 15px;
     }
 
