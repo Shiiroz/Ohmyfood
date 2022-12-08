@@ -147,7 +147,7 @@
             h4 {
                 text-overflow: ellipsis;
                 white-space: nowrap;
-                overflow: hidden;
+                //overflow: hidden;
             }
         }
     }
@@ -245,8 +245,13 @@
 
     h4 {
         font-weight: normal;
+        font-size: initial;
         text-overflow: ellipsis;
         white-space: nowrap;
+       
+        @media screen and (max-width: 390px) {
+            font-size: 12px;
+        }
     }
 }
 

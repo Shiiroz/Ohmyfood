@@ -490,7 +490,6 @@ footer .footer__logo {
   .card__globale__contenu__assiette h4 {
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
   }
 }
 .card__globale__contenu:hover .card__globale__contenu__assiette__confirmation {
@@ -573,8 +572,14 @@ footer .footer__logo {
 }
 .header_menu h4 {
   font-weight: normal;
+  font-size: initial;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+@media screen and (max-width: 390px) {
+  .header_menu h4 {
+    font-size: 12px;
+  }
 }
 
 /*------Bouton Commander------*/
