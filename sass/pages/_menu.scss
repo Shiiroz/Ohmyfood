@@ -11,8 +11,12 @@
 /*---Carte restaurant----*/
 
 .card__titles {
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Shrikhand';
     text-align: center;
+    @media screen and (max-width: 480px) {
+        display: flex;
+        justify-content: space-between1;
+    }
 }
 
 .fa-heart:before {
@@ -43,6 +47,7 @@
 
     h2 {
         margin-bottom: 39px;
+        font-weight: initial;
         //text-align: center;
         
     }
@@ -260,7 +265,7 @@
 .bouton__commander {
     padding: 30px 0 80px 0;
     text-align: center;
-    background-color: #F6F6F6;
+    background-color: $color-f;
 
     &--rose {
         background-color: $color-primaire;
