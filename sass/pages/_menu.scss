@@ -26,7 +26,7 @@
 
 .opa{
     position: absolute;
-    @media screen and (max-width:560px) {
+    @media screen and (max-width:530px) {
         display: flex;
     margin-left: 74%;
     margin-top: -33px;
@@ -252,11 +252,11 @@
 
 .card__prix {
     display: flex;
-    justify-content: flex-end;
+    //justify-content: flex-end;
     align-items: flex-end;
     align-self: flex-end;
     font-weight: bold;
-    margin-right: 44px;
+    margin-right: -20px;
     width: 25%;
 }
 
