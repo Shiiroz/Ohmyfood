@@ -12,7 +12,10 @@
 
 .card__titles {
     font-family: 'Shrikhand';
-    text-align: center; 
+    @media screen and (min-width:560px) {
+        text-align: center; 
+    }  
+    
     @media screen and (max-width: 480px) {
         margin-right: 164px;
     }
@@ -23,6 +26,11 @@
 
 .opa{
     position: absolute;
+    @media screen and (max-width:560px) {
+        display: flex;
+    margin-left: 74%;
+    margin-top: -33px;
+    }  
     
 }
 .opa1{
@@ -64,6 +72,7 @@
         margin-bottom: 39px;
         font-weight: initial;
         //text-align: center;
+        font-size: 23px;
         
     }
 }

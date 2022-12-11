@@ -371,7 +371,11 @@ footer .footer__logo {
 /*---Carte restaurant----*/
 .card__titles {
   font-family: "Shrikhand";
-  text-align: center;
+}
+@media screen and (min-width: 560px) {
+  .card__titles {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 480px) {
   .card__titles {
@@ -386,6 +390,13 @@ footer .footer__logo {
 
 .opa {
   position: absolute;
+}
+@media screen and (max-width: 560px) {
+  .opa {
+    display: flex;
+    margin-left: 74%;
+    margin-top: -33px;
+  }
 }
 
 .opa1 {
@@ -424,6 +435,7 @@ footer .footer__logo {
 .card h2 {
   margin-bottom: 39px;
   font-weight: initial;
+  font-size: 23px;
 }
 
 .entres {
