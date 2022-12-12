@@ -23,9 +23,9 @@
         font-size: large;
     }  
 }
-
 .opa{
     position: absolute;
+
     @media screen and (max-width:530px) {
         display: flex;
     margin-left: 74%;
@@ -40,6 +40,16 @@
         opacity: 1;
         color: $color-secondaire;
     }
+}
+
+.opa3{
+    
+    @media screen and (max-width:530px) {
+        display: flex;
+    margin-left: 74%;
+    margin-top: -33px;
+    } 
+
 }
 
 .fa-heart:before {
@@ -71,8 +81,9 @@
     h2 {
         margin-bottom: 39px;
         font-weight: initial;
+        white-space: nowrap;
         //text-align: center;
-        font-size: 23px;
+        font-size: 27px;
         
     }
 }

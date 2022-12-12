@@ -43,11 +43,6 @@ a {
   text-decoration: none;
   color: black;
 }
-@media screen and (max-width: 550px) {
-  a {
-    width: 82%;
-  }
-}
 
 .container {
   max-width: 2560px;
@@ -352,6 +347,18 @@ footer h3 {
     text-align: center;
   }
 }
+footer h4 {
+  font-family: "Shrikhand", cursive;
+  margin: 0 0 10px 20px;
+  color: #e6e6e6;
+  font-weight: normal;
+  display: block;
+}
+@media screen and (min-width: 525px) {
+  footer h4 {
+    text-align: center;
+  }
+}
 footer a {
   text-decoration: none;
 }
@@ -412,6 +419,14 @@ footer .footer__logo {
   color: #FF79DA;
 }
 
+@media screen and (max-width: 530px) {
+  .opa3 {
+    display: flex;
+    margin-left: 74%;
+    margin-top: -33px;
+  }
+}
+
 .fa-heart:before {
   margin-left: 20px;
 }
@@ -440,7 +455,8 @@ footer .footer__logo {
 .card h2 {
   margin-bottom: 39px;
   font-weight: initial;
-  font-size: 23px;
+  white-space: nowrap;
+  font-size: 27px;
 }
 
 .entres {

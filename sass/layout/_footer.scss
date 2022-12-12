@@ -11,7 +11,7 @@ footer {
     min-width: 320px;
 
     h3 {
-        font-family: "Shrikhand" ;
+        font-family:"Shrikhand" ;
         margin: 0 0 10px 20px;
         color: #e6e6e6;
         font-weight: normal;
@@ -21,6 +21,17 @@ footer {
             text-align: center;
         }
         
+    }
+    h4{
+        font-family: "Shrikhand", cursive ;
+        margin: 0 0 10px 20px;
+        color: #e6e6e6;
+        font-weight: normal;
+        display: block;
+        
+        @media screen and (min-width: 525px) {
+            text-align: center;
+        }
     }
 
     a {
