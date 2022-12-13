@@ -12,7 +12,7 @@
 
 .card__titles {
     font-family: 'Shrikhand';
-    @media screen and (min-width:560px) {
+    @media screen and (min-width:530px) {
         text-align: center; 
     }  
     
@@ -23,14 +23,11 @@
         font-size: large;
     }  
 }
+.espace{
+    margin-left: 10px;
+}
 .opa{
     position: absolute;
-
-    @media screen and (max-width:530px) {
-        display: flex;
-    margin-left: 74%;
-    margin-top: -33px;
-    }  
     
 }
 .opa1{
@@ -42,15 +39,6 @@
     }
 }
 
-.opa3{
-    
-    @media screen and (max-width:530px) {
-        display: flex;
-    margin-left: 74%;
-    margin-top: -33px;
-    } 
-
-}
 
 .fa-heart:before {
     margin-left: 20px;
@@ -84,6 +72,10 @@
         white-space: nowrap;
         //text-align: center;
         font-size: 27px;
+        
+        @media screen and (max-width:330px) {
+            font-size: 23px;
+            }
         
     }
 }
@@ -267,8 +259,13 @@
     align-items: flex-end;
     align-self: flex-end;
     font-weight: bold;
-    margin-right: -20px;
+    margin-right: -18px;
     width: 25%;
+
+    @media screen and (max-width: 369px) {
+        margin-right: 1px;
+        
+    }
 }
 
 .header_menu {

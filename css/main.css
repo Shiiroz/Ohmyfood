@@ -384,7 +384,7 @@ footer .footer__logo {
 .card__titles {
   font-family: "Shrikhand";
 }
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 530px) {
   .card__titles {
     text-align: center;
   }
@@ -400,15 +400,12 @@ footer .footer__logo {
   }
 }
 
+.espace {
+  margin-left: 10px;
+}
+
 .opa {
   position: absolute;
-}
-@media screen and (max-width: 530px) {
-  .opa {
-    display: flex;
-    margin-left: 74%;
-    margin-top: -33px;
-  }
 }
 
 .opa1 {
@@ -417,14 +414,6 @@ footer .footer__logo {
 .opa1:hover {
   opacity: 1;
   color: #FF79DA;
-}
-
-@media screen and (max-width: 530px) {
-  .opa3 {
-    display: flex;
-    margin-left: 74%;
-    margin-top: -33px;
-  }
 }
 
 .fa-heart:before {
@@ -457,6 +446,11 @@ footer .footer__logo {
   font-weight: initial;
   white-space: nowrap;
   font-size: 27px;
+}
+@media screen and (max-width: 330px) {
+  .card h2 {
+    font-size: 23px;
+  }
 }
 
 .entres {
@@ -616,8 +610,13 @@ footer .footer__logo {
   align-items: flex-end;
   align-self: flex-end;
   font-weight: bold;
-  margin-right: -20px;
+  margin-right: -18px;
   width: 25%;
+}
+@media screen and (max-width: 369px) {
+  .card__prix {
+    margin-right: 1px;
+  }
 }
 
 .header_menu {
