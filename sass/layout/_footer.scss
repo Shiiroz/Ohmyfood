@@ -10,8 +10,8 @@ footer {
     max-width: 100%;
     min-width: 320px;
 
-    h3 {
-        font-family:"Shrikhand" ;
+    span {
+        font-family:"Shrikhand", cursive;
         margin: 0 0 10px 20px;
         color: #e6e6e6;
         font-weight: normal;
@@ -22,8 +22,8 @@ footer {
         }
         
     }
-    h4{
-        font-family: "Shrikhand", cursive ;
+    a{
+        font-family: "roboto", sans-serif ;
         margin: 0 0 10px 20px;
         color: #e6e6e6;
         font-weight: normal;
@@ -44,9 +44,8 @@ footer {
     }
 
     .footer__logo {
-        font-weight: 900;
-        font-style: italic;
-        font-size: 25px;
+        font-weight: 500;
+        font-size: 22px;
         margin-bottom: 15px;
     }
 
