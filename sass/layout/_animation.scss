@@ -1,3 +1,5 @@
+// animtaion des plats et menu
+
 @keyframes transition {
   0%   { margin-top: -50px;opacity:0; }
   50%  { margin-top: -20px;opacity:0.5;}
@@ -19,3 +21,5 @@
   opacity:0;
   animation: transition 0.5s linear 2s forwards;
 }
+
+// Animation coeur  

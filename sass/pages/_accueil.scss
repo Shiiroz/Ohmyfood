@@ -271,24 +271,27 @@ h1 {
             .coeur {
                 position: absolute;
                 right: 20px;
-                top: 1px;
 
                 &__1 {
                     position: relative;
 
-                    &:hover {
-                        animation: heart__empty__opacity1 1s;
-                    }
+                    // &:hover {
+                    //     animation: heart__empty__opacity1 1s;
+                    // }
                 }
 
                 &__2 {
                     position: absolute;
                     top: 0px;
                     opacity: 0;
-                    color: #FFF;
+                    background-image: linear-gradient(100deg, $color-primaire, $color-secondaire);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: all 600ms ease-in-out;
 
                     &:hover {
-                        animation: heart__full__opacity 0s forwards;
+                        // animation: heart__full__opacity 0s forwards;
+                       opacity: 1;
                     }
                 }
             }
