@@ -24,24 +24,25 @@
     }  
 }
 .espace{
-    margin-left: 10px;
-}
-.opa3{
     display: flex;
-    align-items: center;
-}
-.opa{
-    position: absolute;
     
 }
-.opa1{
-    opacity: 0;
+// .opa3{
+//     display: flex;
+//     align-items: center;
+// }
+// .opa{
+//     position: absolute;
+    
+// }
+// .opa1{
+//     opacity: 0;
 
-    &:hover{
-        opacity: 1;
-        color: $color-secondaire;
-    }
-}
+//     &:hover{
+//         opacity: 1;
+//         color: $color-secondaire;
+//     }
+// }
 
 
 .fa-heart:before {

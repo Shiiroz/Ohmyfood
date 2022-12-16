@@ -406,24 +406,7 @@ footer .footer__logo {
 }
 
 .espace {
-  margin-left: 10px;
-}
-
-.opa3 {
   display: flex;
-  align-items: center;
-}
-
-.opa {
-  position: absolute;
-}
-
-.opa1 {
-  opacity: 0;
-}
-.opa1:hover {
-  opacity: 1;
-  color: #FF79DA;
 }
 
 .fa-heart:before {
