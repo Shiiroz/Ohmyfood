@@ -174,8 +174,6 @@ h1 {
 .fonction__titre {
   margin: 0 0 20px 22px;
   display: block;
-  text-align: center;
-  margin-right: 1285px;
 }
 
 .fonction {
@@ -320,6 +318,12 @@ h1 {
 .restaurants__carte .restaurants__carte__content .coeur__2:hover {
   opacity: 1;
 }
+@media screen and (max-width: 550px) {
+  .restaurants .centre {
+    width: 100%;
+    margin: 0px 47px 0px;
+  }
+}
 .restaurants .btn-new {
   background-color: #99E2D0;
   color: #1b6150;
@@ -434,7 +438,7 @@ footer .footer__logo {
   margin-bottom: 39px;
   font-weight: initial;
   white-space: nowrap;
-  font-size: 27px;
+  font-size: 20px;
 }
 @media screen and (max-width: 330px) {
   .card h2 {

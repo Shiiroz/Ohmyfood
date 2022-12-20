@@ -126,8 +126,6 @@ h1 {
 .fonction__titre {
     margin: 0 0 20px 22px;
     display: block;
-    text-align: center;
-    margin-right: 1285px;
 }
 
 .fonction {
@@ -188,6 +186,10 @@ h1 {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+
+        // @media screen and (max-width: 750px) {
+        //     width: 100%;
+        // }
     }
 
     &__titre {
@@ -298,6 +300,13 @@ h1 {
             }
         }
 
+    }
+    .centre{
+        @media screen and (max-width: 550px) {
+            width: 100%;
+            margin:0px 47px 0px;
+
+        }
     }
 
     .btn-new {
