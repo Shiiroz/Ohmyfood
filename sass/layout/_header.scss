@@ -3,13 +3,15 @@ header {
     box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
     width: 100%;
     min-width: 320px;
-    padding: 21px 0;
+    // padding: 21px 0;
 
     .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    position: relative;
+    box-shadow: 0 5px 2px -1px #5651511f;
 
         img {
             max-width: 168px;
