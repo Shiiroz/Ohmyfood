@@ -12,7 +12,6 @@ header .logo {
   align-items: center;
   height: 65px;
   position: relative;
-  box-shadow: 0 5px 2px -1px rgba(86, 81, 81, 0.1215686275);
 }
 header .logo img {
   max-width: 168px;
@@ -76,6 +75,10 @@ button {
 
 h1 {
   color: #9356DC;
+}
+
+.logo {
+  box-shadow: 0 5px 3px 0px rgba(86, 81, 81, 0.1215686275);
 }
 
 /*------Loader-------*/
