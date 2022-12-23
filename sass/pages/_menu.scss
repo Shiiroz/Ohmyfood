@@ -12,6 +12,9 @@
 
 .card__titles {
     font-family: 'Shrikhand';
+    font-weight: revert;
+    margin-bottom: 29px;
+    white-space: nowrap;
     @media screen and (min-width:530px) {
         text-align: center; 
     }  
@@ -21,6 +24,7 @@
     }
     @media screen and (max-width:365px) {
         font-size: large;
+        
     }  
 }
 .espace{

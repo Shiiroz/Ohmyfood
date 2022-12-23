@@ -74,7 +74,7 @@ button {
 }
 
 h1 {
-  color: #9356DC;
+  font-family: "roboto";
 }
 
 .logo {
@@ -407,6 +407,9 @@ footer .footer__logo {
 /*---Carte restaurant----*/
 .card__titles {
   font-family: "Shrikhand";
+  font-weight: revert;
+  margin-bottom: 29px;
+  white-space: nowrap;
 }
 @media screen and (min-width: 530px) {
   .card__titles {
