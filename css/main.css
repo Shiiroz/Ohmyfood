@@ -220,6 +220,18 @@ h1 {
   background-color: #f5edff;
 }
 
+.cent1 {
+  margin-left: 28px;
+}
+
+.cent2 {
+  margin-left: 10px;
+}
+
+.cent3 {
+  margin-left: 18px;
+}
+
 /*------Restaurants------*/
 .restaurants {
   background-color: #F6F6F6;
@@ -324,7 +336,7 @@ h1 {
 @media screen and (max-width: 550px) {
   .restaurants .centre {
     width: 100%;
-    margin: 0px 47px 0px;
+    margin: 0px 18px 0px;
   }
 }
 .restaurants .btn-new {
