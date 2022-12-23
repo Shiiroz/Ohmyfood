@@ -177,6 +177,8 @@ h1 {
 .fonction__titre {
   margin: 0 0 20px 22px;
   display: block;
+  text-align: center;
+  margin-right: 1285px;
 }
 
 .fonction {
@@ -407,7 +409,7 @@ footer .footer__logo {
 /*---Carte restaurant----*/
 .card__titles {
   font-family: "Shrikhand";
-  font-weight: revert;
+  font-weight: 100;
   margin-bottom: 29px;
   white-space: nowrap;
 }
