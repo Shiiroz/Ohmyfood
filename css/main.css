@@ -204,12 +204,6 @@ h1 {
   width: 300px;
   max-height: 78px;
 }
-.fonction__go:hover {
-  background-color: #f5edff;
-}
-.fonction__go:hover .fas {
-  color: #9356DC;
-}
 .fonction__go__number {
   width: 18px;
   height: 18px;
@@ -220,6 +214,10 @@ h1 {
   position: absolute;
   top: 30%;
   left: -4%;
+}
+
+.back {
+  background-color: #f5edff;
 }
 
 /*------Restaurants------*/
