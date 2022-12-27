@@ -190,10 +190,14 @@ h1 {
   justify-content: center;
   padding: 0 15px;
 }
+.fonction p {
+  font-size: small;
+}
 .fonction h2 {
   margin: -32px -164px 49px -1px;
 }
 .fonction__go {
+  display: flex;
   margin: 0 20px 20px 40px;
   font-weight: bold;
   background-color: #F6F6F6;
@@ -214,8 +218,8 @@ h1 {
   background-color: #9356DC;
   color: #FFF;
   position: absolute;
-  top: 30%;
-  left: -4%;
+  top: 34%;
+  left: -3%;
 }
 
 .back {
@@ -227,11 +231,12 @@ h1 {
 }
 
 .cent2 {
-  margin-left: 10px;
+  margin-left: 29px;
 }
 
 .cent3 {
-  margin-left: 18px;
+  margin-left: 28px;
+  color: #9356DC;
 }
 
 /*------Restaurants------*/
@@ -585,7 +590,7 @@ footer .footer__logo {
   justify-content: space-between;
 }
 .card__globale__contenu__assiette h3 {
-  font-size: 16px;
+  font-size: 14px;
 }
 .card__globale__contenu__assiette h4 {
   font-size: 16px;

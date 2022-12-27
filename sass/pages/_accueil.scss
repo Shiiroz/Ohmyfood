@@ -144,11 +144,17 @@ h1 {
     justify-content: center;
     padding: 0 15px;
 
+    p{
+        font-size: small;
+    }
+
     h2 {
         margin: -32px -164px 49px -1px;
     }
 
+
     &__go {
+        display: flex;
         margin: 0 20px 20px 40px;
         font-weight: bold;
         background-color: $color-f;
@@ -169,8 +175,8 @@ h1 {
             background-color: $color-primaire;
             color: #FFF;
             position: absolute;
-            top: 30%;
-            left: -4%;
+            top: 34%;
+            left: -3%;
         }
     }
 }
@@ -181,10 +187,11 @@ h1 {
     margin-left: 28px;
 }
 .cent2{
-margin-left: 10px;
+margin-left: 29px;
 }
 .cent3{
-    margin-left: 18px;
+    margin-left: 28px;
+    color: #9356DC;
 }
 
 
